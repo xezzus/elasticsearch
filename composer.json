@@ -1,0 +1,7 @@
+{
+    "require":{
+      "humanity/humanity":"1.1.x",
+      "humanity/elasticsearch":"dev-master",
+      "twbs/bootstrap":"v3.x"
+    }
+}

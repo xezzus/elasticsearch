@@ -1,0 +1,23 @@
+<?php
+    self::$js->add(['cookie','apps']);
+    self::$css->add(['normalize','bootstrap.min','bootstrap-theme.min']);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ElasticSearch</title>
+    <meta charset="utf-8">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+<?php
+    if(isset($_COOKIE['esconnect']) && (bool) $_COOKIE['esconnect'] === true){
+        self::$view->admin;
+    } else {
+        self::$view->esconnect;
+    }
+?>
+</body>
+</html>
+

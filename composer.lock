@@ -1,0 +1,277 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b85bb4c89786564539bb9c6c99418b45",
+    "content-hash": "df9aa3e44e3b98bf4c4f6a5a0c682d9e",
+    "packages": [
+        {
+            "name": "humanity/elasticsearch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xezzus/humanity-elasticsearch.git",
+                "reference": "4710ffb893e6e0f7b167998117295b9c91002f1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xezzus/humanity-elasticsearch/zipball/4710ffb893e6e0f7b167998117295b9c91002f1a",
+                "reference": "4710ffb893e6e0f7b167998117295b9c91002f1a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "humanity\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License (MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Buturlakin Andrey",
+                    "email": "xezzus@gmail.com",
+                    "homepage": "https://github.com/xezzus",
+                    "role": "Founder and project lead"
+                }
+            ],
+            "description": "ElasticSearch PHP lib",
+            "homepage": "https://github.com/xezzus/humanity-elasticsearch",
+            "keywords": [
+                "elasticsearch",
+                "php"
+            ],
+            "time": "2016-02-25 09:24:19"
+        },
+        {
+            "name": "humanity/humanity",
+            "version": "1.1.44",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xezzus/humanity.git",
+                "reference": "2384b7509aa792fca482c9a925fdc36fb0d0c7c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xezzus/humanity/zipball/2384b7509aa792fca482c9a925fdc36fb0d0c7c6",
+                "reference": "2384b7509aa792fca482c9a925fdc36fb0d0c7c6",
+                "shasum": ""
+            },
+            "require": {
+                "matthiasmullie/minify": "1.3.x",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "humanity\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Buturlakin Andrey",
+                    "email": "xezzus@gmail.com",
+                    "homepage": "https://github.com/xezzus",
+                    "role": "Founder and project lead"
+                }
+            ],
+            "description": "Humanity PHP Framework Version 1",
+            "homepage": "https://github.com/xezzus/humanity",
+            "keywords": [
+                "framework",
+                "humanity",
+                "php",
+                "va"
+            ],
+            "time": "2016-01-07 07:34:44"
+        },
+        {
+            "name": "matthiasmullie/minify",
+            "version": "1.3.33",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasmullie/minify.git",
+                "reference": "3176239d15fc8502520b7ddae719c77cfc14862c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/3176239d15fc8502520b7ddae719c77cfc14862c",
+                "reference": "3176239d15fc8502520b7ddae719c77cfc14862c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "matthiasmullie/path-converter": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "matthiasmullie/scrapbook": "~1.0",
+                "phpunit/phpunit": "~4.8"
+            },
+            "bin": [
+                "bin/minifycss",
+                "bin/minifyjs"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\Minify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "email": "minify@mullie.eu",
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CSS & JS minifier",
+            "homepage": "http://www.minifier.org",
+            "keywords": [
+                "JS",
+                "css",
+                "javascript",
+                "minifier",
+                "minify"
+            ],
+            "time": "2016-02-17 14:39:47"
+        },
+        {
+            "name": "matthiasmullie/path-converter",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasmullie/path-converter.git",
+                "reference": "83609c1bb251b2540eba912615571a501a0a06a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/83609c1bb251b2540eba912615571a501a0a06a6",
+                "reference": "83609c1bb251b2540eba912615571a501a0a06a6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8",
+                "satooshi/php-coveralls": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MatthiasMullie\\PathConverter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Mullie",
+                    "email": "pathconverter@mullie.eu",
+                    "homepage": "http://www.mullie.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Relative path converter",
+            "homepage": "http://github.com/matthiasmullie/path-converter",
+            "keywords": [
+                "converter",
+                "path",
+                "paths",
+                "relative"
+            ],
+            "time": "2016-01-07 00:41:13"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2015-11-24 19:37:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "humanity/elasticsearch": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
